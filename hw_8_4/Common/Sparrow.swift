@@ -7,9 +7,12 @@
 
 import Foundation
 
-struct Parrot: Animal{
+struct Sparrow: Animal{
     var name: String
     var voice: String
-    var numberOfPaws: Int { return 2 }
     
+    
+    func eat() {
+        print("The Sparrow is eating seeds")
+    }
 }

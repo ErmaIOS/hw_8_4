@@ -7,5 +7,10 @@
 
 import Foundation
 
-print("Hello, World!")
+var dog = Dog(name: "Dog", voice: "Gav-gav")
+dog.makeSound()
+dog.eat()
 
+var sparrow = Sparrow(name: "Sparrow", voice: "Chik-chirik")
+sparrow.makeSound()
+sparrow.eat()

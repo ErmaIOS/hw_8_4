@@ -9,15 +9,16 @@ import Foundation
 
 
 protocol Animal{
+    var name: String {get set}
+    var voice: String {get set}
     
-    var animal: String {get set}
-    
-    func voice()
-    
+    func makeSound()
+    func eat()
 }
 
+
 extension Animal{
-    func voice(){
-        print("Animal")
+    func makeSound(){
+        print("The \(name) voice is \(voice)")
     }
 }

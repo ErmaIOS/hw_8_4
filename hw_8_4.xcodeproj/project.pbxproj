@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		ACAD78A92B74E405004D2FB9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD78A82B74E405004D2FB9 /* main.swift */; };
+		ACAD78B22B74E440004D2FB9 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD78B12B74E440004D2FB9 /* Animal.swift */; };
+		ACAD78B42B74E76D004D2FB9 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD78B32B74E76D004D2FB9 /* Dog.swift */; };
+		ACAD78B62B74EDC0004D2FB9 /* Sparrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD78B52B74EDC0004D2FB9 /* Sparrow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		ACAD78A52B74E405004D2FB9 /* hw_8_4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw_8_4; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACAD78A82B74E405004D2FB9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ACAD78B12B74E440004D2FB9 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		ACAD78B32B74E76D004D2FB9 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		ACAD78B52B74EDC0004D2FB9 /* Sparrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sparrow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,28 @@
 		ACAD78A72B74E405004D2FB9 /* hw_8_4 */ = {
 			isa = PBXGroup;
 			children = (
-				ACAD78A82B74E405004D2FB9 /* main.swift */,
+				ACAD78AF2B74E410004D2FB9 /* Common */,
 			);
 			path = hw_8_4;
+			sourceTree = "<group>";
+		};
+		ACAD78AF2B74E410004D2FB9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD78B02B74E41E004D2FB9 /* Protocol */,
+				ACAD78A82B74E405004D2FB9 /* main.swift */,
+				ACAD78B32B74E76D004D2FB9 /* Dog.swift */,
+				ACAD78B52B74EDC0004D2FB9 /* Sparrow.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		ACAD78B02B74E41E004D2FB9 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				ACAD78B12B74E440004D2FB9 /* Animal.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACAD78A92B74E405004D2FB9 /* main.swift in Sources */,
+				ACAD78B22B74E440004D2FB9 /* Animal.swift in Sources */,
+				ACAD78B42B74E76D004D2FB9 /* Dog.swift in Sources */,
+				ACAD78B62B74EDC0004D2FB9 /* Sparrow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
